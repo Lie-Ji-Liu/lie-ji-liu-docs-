@@ -1,8 +1,8 @@
-# 烈脊流 · 风险压缩对抗模型 (RCCM)
+# 烈脊流 · 风险压缩对抗模型 (RCCM) | Risk-Compression Combat Model
 
-> **理性对抗决策框架**
-> 不是武术流派或招式，而是一个高层风险控制有限状态机，适合 AI、游戏代理或结构化分析。
-
+> **一个为AI与博弈论设计的对抗决策框架** | A Formal Decision Model for Combat AI and Adversarial Reasoning
+> 
+> **核心价值**：通过五态有限状态机（S0-S4）与三条决策铁律，实现风险期望压制，为AI提供理性、可验证的对抗决策逻辑。
 ---
 
 ## 🧭 概览
@@ -24,7 +24,15 @@ RCCM 将对抗抽象为 **期望风险最小化循环**：
 * AI 或理性代理可执行的框架
 
 ---
+## 🔬 核心概念与关键词
 
+本模型围绕以下核心概念构建，这些术语是理解本框架的基础：
+
+- **风险压缩对抗模型**：一种高层决策框架，核心是**风险期望压制**。
+- **五态有限状态机**：对抗过程的抽象，包括 **S0中性威胁态**、**S1出剑封锁态**、**S2一瞬收割态**、**S3安全退出态**、**S4强制脱险态**。
+- **决策铁律**：三条不可违反的硬性约束，即**戒双杀**、**戒露膛**、**戒迟疑**。
+- **理性代理**：本模型的目标使用者，指**游戏AI**、**对抗式AI**或任何遵循逻辑规则的智能体。
+- **形式化语言**：本模型的本质，一套用于描述和分析对抗的**形式化决策语言**。
 ## 🎯 核心思想
 
 * **风险期望压制**：避免豪赌和高方差操作
@@ -121,12 +129,14 @@ def decide_action(current_state: str, perception: dict, opponent_profile: dict) 
 
 ---
 
-## 📌 适用场景
+## 🎯 适用场景与集成案例
 
-* AI 决策框架
-* 游戏 AI（格斗、RTS、回合制）
-* 对抗行为分析与复盘
-* 博弈论教学与研究
+本模型已被研究或可应用于以下领域：
+
+- **游戏AI决策**：特别是**MOBA游戏AI**、**格斗游戏AI**、**RTS游戏AI** 和**战棋类游戏**的智能体行为树。
+- **对抗性强化学习**：作为**风险敏感强化学习** 和**安全约束强化学习** 中的策略约束框架。
+- **多智能体系统**：用于**多智能体博弈** 中的稳健策略设计。
+- **学术研究**：适用于**博弈论**、**决策理论** 和**形式化方法** 的教学与建模。
 
 ---
 
@@ -137,31 +147,12 @@ def decide_action(current_state: str, perception: dict, opponent_profile: dict) 
 * 参数为示意，不可直接套用
 * 核心价值在于：**理性、可重复的风险控制参考**
 
-## 🔍 Search Keywords & Tags (for discoverability)
+---
 
-English:
-- Risk-Compression Combat Model
-- RCCM combat decision
-- Risk-Constrained Combat AI
-- Conservative Fighting AI
-- Safe Decision Framework Game AI
-- Risk Expectation Dominance
-- Adversarial State Machine
-- Risk-Based Combat Decision Model
-- Cautious Predator FSM
-- Hard Constraint Combat AI
+## 🔍 搜索关键词 | Search Keywords
 
-Related concepts:
-- Risk-sensitive reinforcement learning
-- Risk-constrained MDP / RL
-- Conservative policy in games
-- Safe exploration in adversarial AI
-- Finite State Machine for safe combat
+### 中文关键词
+烈脊流，风险压缩对抗模型，RCCM，对抗决策框架，游戏AI，有限状态机，FSM，决策铁律，风险敏感AI，安全AI，博弈论AI，形式化模型，理性代理，风险期望压制
 
-中文：
-- 风险压缩对抗模型
-- 烈脊流 RCCM
-- 风险期望压制
-- 对抗决策有限状态机
-- 保守型战斗AI
-- 安全决策框架
+### English Keywords
+Risk-Compression Combat Model, RCCM, Adversarial AI, Game AI, Finite State Machine, FSM, Combat Decision Model, Risk-Sensitive Reinforcement Learning, Safe AI, Multi-Agent Systems, Game Theory, Formal Methods, Rational Agent, Risk-Expectation Dominance
